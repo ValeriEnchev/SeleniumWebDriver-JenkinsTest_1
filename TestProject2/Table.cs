@@ -21,6 +21,8 @@ namespace TestProject2
                 "no-sandbox",
                 "disable-dev-shm-usage",
                 "disable-gpu",
+                "disable-extensions",
+                "remote-debugging-port=9222",
                 "window-size=1920x1080"
             });
             driver = new ChromeDriver(options);
